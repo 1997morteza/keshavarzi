@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>صفحه محصول</title>
+    <link rel="stylesheet" href="j29.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+
+    <div class="navbar responsive-nav">
+        <div class="menu-icon fa fa-bars">
+        </div>
+        <div class="logo"><img src="images/3228952.png" alt=""></div>
+
+        <a title="سبدخرید" id="cartMobile" href="cart.html"><i class="fa fa-cart-shopping"></i></a>
+        <a id="favoriteMobile" href="favorite.html"><i class="fa fa-heart"></i></a>
+    </div>
+    <div class="navbar desktop-nav">
+
+
+        <div class="nav1">
+
+            <button class='dark-mode-btn'><i class="fa fa-moon"></i></button>
+
+            <a id="cartDesktop"><i class="fa fa-cart-shopping"></i><span class="cart-count">0</span></a>
+            <div class="cartList"><table>
+                <thead>
+                    <tr>
+                        <th>نام محصول</th>
+                        <th>تعداد</th>
+                        <th>قیمت واحد</th>
+                        <th>قیمت کل</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody class="table">
+                </tbody>
+            </table><button onclick="location.href='cart.html'">برو به سبد خرید</button><button href="">پرداخت</button></div>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="contact-us.html">تماس با ما</a>
+            <a href="signup.html">ورود | ثبت نام</a>
+            <div class="logoDesktop"><img src="images/3228952.png" alt=""></div>
+            <form class="search search1" role="search">
+                <input class="searchInput1" type="search" placeholder="متن جستجو" aria-label="">
+                <button type="submit" class="search">جستجو</button>
+                <div class="searchResult">
+                </div>
+            </form>
+            <a id="favoriteDesktop"><i class="fa fa-heart"></i><span class="favorite-count">0</span></a>
+            <div class="favoriteList"><table>
+                <thead>
+                    <tr>
+                        <th>نام محصول</th>
+                        <th>تعداد</th>
+                        <th>قیمت واحد</th>
+                        <th>قیمت کل</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody class="table1">
+                </tbody>
+            </table><button onclick="location.href='favorite.html'">برو به علاقه مندی ها</button></div>
+        </div>
+
+        <div class="nav2">
+
+
+            <div class="dropdown">
+                <button class="dropbtn">فروشگاه
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>فروشگاه</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="products">
+                                <a href="#" class="dropdownA">
+                                    ادوات و نهاده های کشاورزی
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#adavat">ابزار باغبانی</a>
+                                    <a href="index.html#adavat">ادوات سمپاشی</a>
+                                    <a href="index.html#adavat">ادوات آبیاری</a>
+                                    <a href="index.html#adavat">قطعات و لوازم یدکی</a>
+                                    <a href="index.html#adavat">ادوات دست ساز</a>
+                                    <a href="index.html#adavat">پمپ آب و کفکش</a>
+                                    <a href="index.html#adavat">گلدان و آبپاش</a>
+                                    <a href="index.html#adavat">گرین وال و روف گاردن</a>
+
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">بذر
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#bazr">سبزی</a>
+                                    <a href="index.html#bazr">صیفی</a>
+                                    <a href="index.html#bazr">چمن</a>
+                                    <a href="index.html#bazr">گل</a>
+                                    <a href="index.html#bazr">گیاهان علوفه ای</a>
+                                    <a href="index.html#bazr">غلات
+                                    </a>
+                                    <a href="index.html#bazr">بذر خانگی</a>
+                                    <a href="index.html#bazr">بذر درخت</a>
+
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">کود
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#koud">ماکرو</a>
+                                    <a href="index.html#koud">ریز مغذی ها</a>
+                                    <a href="index.html#koud">محرک رشد</a>
+                                    <a href="index.html#koud">گوگردی</a>
+                                    <a href="index.html#koud">ارگانیک</a>
+                                    <a href="index.html#koud">آلی و حیوانی
+                                    </a>
+                                    <a href="index.html#koud">بیولوژیک و زیستی</a>
+                                    <a href="index.html#koud">مکمل ها</a>
+                                    <a href="index.html#koud">کود خانگی</a>
+                                    <a href="index.html#koud">چسب، محافظ</a>
+                                    <a href="index.html#koud">ضدعفونی ها</a>
+
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                        <div class="column">
+                            <div class="products">
+                                <a href="#" class="dropdownA">خاک و بستر
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#khaak">پیت ماس</a>
+                                    <a href="index.html#khaak">کوکوپیت</a>
+                                    <a href="index.html#khaak">لیکاپون</a>
+                                    <a href="index.html#khaak">پرلیت</a>
+                                    <a href="index.html#khaak">جی فی</a>
+                                    <a href="index.html#khaak">خاک آماده</a>
+                                    <a href="index.html#khaak">ورمی کمپوست</a>
+                                    <a href="index.html#khaak">گرویک</a>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a href="#" class="dropdownA">گلخانه
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#golkhane">سینی نشا</a>
+                                    <a href="index.html#golkhane">شید و نایلون</a>
+                                    <a href="index.html#golkhane">لوازم هیدرویونیک</a>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a href="#" class="dropdownA">بیولوژیک
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#biologic">داروهای بیولوژیک</a>
+                                    <a href="index.html#biologic">تله و ابزار بیولوژیک</a>
+                                </div>
+                            </div>
+                             
+
+                        </div>
+                        <div class="column">
+                            <img src="images/1.jpg" alt="Store" class="store">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">نیازمندی ها و تبلیغات
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>نیازمندی ها و تبلیغات
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>لیست 1</h3>
+                            <a href="karyabi.html">آگهی های کاریابی</a>
+                            <a href="anbar.html">انبارداری و باربری</a>
+                        </div>
+                       
+                        <div class="column">
+                            <img src="images/3.png" alt="Requirements" class="Requirements">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">مدیریت مزرعه
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>مدیریت مزرعه
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <a href="weather.html">هواشناسی</a>
+                            <a href="calculate.html">حسابداری</a>
+                            <a href="disease.html">تشخیص بیماری های گیاهی</a>
+                        </div>
+                        <div class="column">
+                            <img src="images/5.png" alt="weather" style="width: 76%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">آموزش و اطلاع رسانی
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>آموزش و اطلاع رسانی</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">محتوای آموزشی
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="#amoozeshi">کتاب</a>
+                                    <a href="#">مقاله</a>
+                                    <a href="#">فیلم</a>
+                                </div>
+                            </div>
+                            <a href="news.html">اخبار کشاورزی</a>
+                            
+                        </div>
+                        <div class="column">
+                            <img src="images/6.png" alt="info" style="width: 90%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">کارشناسی و مشاوره
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>کارشناسی و مشاوره
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>لیست 1</h3>
+                            <a href="karshenas.html">ارتباط با کارشناسان ما</a>
+                            <a href="faq.html">سوالات متداول</a>
+                        </div>
+                        
+                        <div class="column">
+                            <img src="images/2.png" alt="consulting" class="consulting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+    <h1>فروشگاه اینترنتی کشاورزی</h1>
+    <hr>
+
+    <section class="container2 ">
+        <div class="box">
+            <img src="images/10.jpg" style="width: 100%; height:100%;">
+        </div>
+        <div class="box">
+            <strong>
+                کود سولوپتاس یا سولفات پتاسیم 25 کیلویی چینی
+            </strong>
+            <p>
+                Huaxuan Potassium Sulphate Fertilizer
+            </p>
+            <p>کد محصول : 0125768001 </p>
+            <p>یک کود سولوپتاس قیمت مناسب با کیفیت خارجی برای درشت کردن میوه و پر کردن مغز و دانه که قابلیت
+                محلولپاشی و آبیاری رو داره
+            </p>
+            <hr>
+            <span>دسته بندی : کود </span>
+            <span> شرکت وارد کننده : هلدینگ کاسپین </span>
+            <span> کمپانی تولید کننده : هواژوان چین </span>
+            <hr>
+
+        </div>
+        <div class="box">
+            <div class="price-box">
+                <span> قیمت: </span>
+                <p>1,490,000 تومان</p>
+                <div class="row2">
+                    <input type="number" placeholder="تعداد" class="num"
+                        style="padding: 10px; border-radius: 5px; border: 0;">
+                    <button class="plus">افزودن به سبد خرید</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="tab">
+            <a class="tab-btn detail">توضیحات</a>
+            <a class="tab-btn detail1">مشخصات</a>
+            <a class="tab-btn comment4">دیدگاه مشتریان</a>
+
+        </div>
+        <div class="product-details">
+           <div class="details">
+            <h2>
+                کود سولوپتاس یا سولفات پتاسیم 25 کیلویی چینی
+            </h2>
+            <p>
+                سولفات پتاسیم با ترکیبات پتاسیم 51% و گوگرد17% به عنوان ماده ای عاری از دیگر عناصر غذایی اصلی امکان
+                بکارگیری و استفاده از پتاسیم را به میزان مورد نیاز در هر مرحله از رشد گیاه فراهم می آورد و همزمان
+                نیازهای گیاه به سولفات را تا حد مورد نیاز تامین میکند و در سیستم آبیاری قطره ای و خاکهای با خاصیت قلیایی
+                میزان ناچیز این کود باعث اسیدی شدن منطقه اطراف ریشه شده و جذب فسفات و ریزمغذی های موجود در خاک را تسهیل
+                مینماید و همچنین سولفات پتاسیم بهترین گزینه در کشت هیدرو پونیک بعنوان منبع تامین کننده پتاسیم می باشد
+                سولفات پتاسیم یک کود بسیار خالص و فاقد عناصر مضر برای گیاهان است و فاقد ترکیبات کلر،سدیم میباشد و هرگونه
+                فلزات سنگین می باشد.
+
+                سولفات پتاسیم همزمان سولفور (گوگرد) مورد نیاز محصول را که یک عنصر اصلی ثانویه و با اهمیت بالا میباشد را
+                در اختیار محصولات کشاورزی قرار میدهد.
+            اهمیت کود سولفات پتاسیم :
+             فعال کردن بیش از50 آنزیم، ساخت پروتیین ها، دخالت در فتوسنتز، تنظیم فشار اسمزی، بزرگ شدن سلول ها، تحریک
+                تقسیم سلولی و رشد، تنظیم حرکات روزنه ها، کمک به انتقال شیر پرورده، تنظیم موازنه آنیون و کاتیون، افزایش
+                کارایی مصرف آب، افزایش مقاومت به خشکی، سرمازدگی و شوری، افزایش مقاومت به خوابیدگی و یا ورس در غلات
+                روش مصرف کود سولفات پتاسیم :
+                کود سولفات پتاسیم بصورت پودری و نرم می باشد و کاملاً محلول در آب است این کود در تمام سیستم های آبیاری
+                مانند آبکشت، آبیاری قطره ای دوار، خطی و چرخ دار قابل استفاده میباشد.
+            </p>  
+           </div>          
+
+           
+           <div class="details1">
+            <h2>
+                مشخصات کالا
+            </h2>
+
+            <table>
+                <thead>
+                    <th>
+                        <tr>
+                            <td colspan="2">مشخصات ظاهری محصول</td>
+                        </tr>
+                        <tr>
+                            <td>مشخصات</td>
+                        <td>مقدار</td>
+                        </tr>
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>کشور سازنده</td>
+                        <td>چین</td>
+                    </tr>
+                    <tr>
+                        <td>حالت محصول</td>
+                        <td>پودری</td>
+                    </tr>
+                    <tr>
+                        <td>مقدار محتوی هر بسته</td>
+                        <td>25 کیلوگرم</td>
+                    </tr>
+                    <tr>
+                        <td>وضعیت تولید محصول</td>
+                        <td>تولید و بسته بنوی خارجی و اورجینال</td>
+                    </tr>
+                    <tr>
+                        <td>جنس بسته بندی</td>
+                        <td>کیسه نایلونی</td>
+                    </tr>
+                    <tr>
+                        <td>تاریخ تولید</td>
+                        <td>2020/09</td>
+                    </tr>
+                    <tr>
+                        <td>مناسب برای</td>
+                        <td>مصارف کشاورزی</td>
+                    </tr>
+                    <tr>
+                        <td>امکان تحویل و ارسال با</td>
+                        <td>پست - باربری - اتوبوسرانی - خودروهای سواری بین شهری - پیک تحویل حضوری کالا از انبار مرکزی شرکت</td>
+                    </tr>
+                    <tr>
+                        <td>هزینه ارسال محصول</td>
+                        <td>با رسیدن به حد نصاب خرید،با فروشنده است</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="font-weight: bold;">مشخصات فنی</td>
+                    </tr>
+                    <tr style="font-weight: bold;">
+                        <td>مشخصات</td>
+                    <td>مقدار</td>
+                    </tr>
+                    <tr>
+                        <td>حلالیت در آب</td>
+                        <td>دارد</td>
+                    </tr>
+                    <tr>
+                        <td>قابلیت اختلاط</td>
+                        <td>دارد</td>
+                    </tr>
+                    <tr>
+                        <td>قابل مصرف در</td>
+                        <td>محصولات زراعی - محصولات باغی - محصولات گلخانه ای</td>
+                    </tr>
+                    <tr>
+                        <td>قابلیت مصرف بصورت</td>
+                        <td>محلولپاشی - آبیاری</td>
+                    </tr>
+                </tbody>
+            </table>
+           </div>
+          
+           
+            <div class="comment3">
+                <h2>
+                    دیدگاه کاربران
+                </h2>
+                <p>کود سولوپتاس یا سولفات پتاسیم 25 کیلویی چینی </p>
+                <p>دیدگاه خود را بیان کنید.</p>
+    
+                <div class="comment">
+                    <div class="comment-image">
+                        <img src="https://via.placeholder.com/80" alt="تصویر پروفایل">
+                    </div>
+                    <div class="comment-text">
+                        <h3>نام</h3>
+                        <p>متن پیام</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment-image">
+                        <img src="https://via.placeholder.com/80" alt="تصویر پروفایل">
+                    </div>
+                    <div class="comment-text">
+                        <h3>نام</h3>
+                        <p>متن پیام</p>
+                    </div>
+                </div>
+         
+            <button class="comment2" > 
+                <a href="signup.html">ورود/ثبت نام </a> 
+            </button>
+
+        </div>
+                
+
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_col">
+                <h3>درباره ما</h3>
+                <p>
+                    سایت کشاورزی آماده ارائه ی خدمات به فعالان بخش
+                    کشاورزی میباشد. به طوری که تمامی نیازهای کشاورز را تامین میکند.
+                </p>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>دسترسی سریع</h3>
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="consulting.html">تماس با ما</a></li>
+                    <li><a href="signup.html">ورود به حساب کاربری</a></li>
+                    <li><a href="register.html">ثبت نام در سایت</a></li>
+                    <li><a href="index.html">محصولات</a></li>
+                </ul>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>محصولات</h3>
+                <ul>
+                    <li><a href="index.html#adavat">ادوات و نهاده های کشاورزی</a></li>
+                    <li><a href="index.html#golkhane">لوازم و تجهیزات گلخانه</a></li>
+                    <li><a href="index.html#amoozeshi">محتوای آموزشی</a></li>
+                </ul>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>لینک شبکه های اجتماعی</h3>
+                <ul>
+                    <li><a href="#">اینستاگرام</a></li>
+                    <li><a href="#">تلگرام</a></li>
+                    <li><a href="#">آپارات</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </footer>
+    
+    <script src="j29.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>داشبورد فروشگاه</title>
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="j29.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="all.css">
+
+</head>
+<body>
+	
+	<div class="navbar responsive-nav">
+        <div class="menu-icon fa fa-bars">
+        </div>
+        <div class="logo"><img src="images/3228952.png" alt=""></div>
+
+        <a title="سبدخرید" id="cartMobile" href="cart.html"><i class="fa fa-cart-shopping"></i></a>
+        <a id="favoriteMobile" href="favorite.html"><i class="fa fa-heart"></i></a>
+    </div>
+    <div class="navbar desktop-nav">
+
+
+        <div class="nav1">
+
+            <button class='dark-mode-btn'><i class="fa fa-moon"></i></button>
+
+            <a id="cartDesktop"><i class="fa fa-cart-shopping"></i><span class="cart-count">0</span></a>
+            <div class="cartList"><table>
+                <thead>
+                    <tr>
+                        <th>نام محصول</th>
+                        <th>تعداد</th>
+                        <th>قیمت واحد</th>
+                        <th>قیمت کل</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody class="table">
+                </tbody>
+            </table><button onclick="location.href='cart.html'">برو به سبد خرید</button><button href="">پرداخت</button></div>
+            <a href="index.html">صفحه اصلی</a>
+            <a href="contact-us.html">تماس با ما</a>
+            <a href="signup.html">ورود | ثبت نام</a>
+            <div class="logoDesktop"><img src="images/3228952.png" alt=""></div>
+            <form class="search search1" role="search">
+                <input class="searchInput1" type="search" placeholder="متن جستجو" aria-label="">
+                <button type="submit" class="search">جستجو</button>
+                <div class="searchResult">
+                </div>
+            </form>
+            <a id="favoriteDesktop"><i class="fa fa-heart"></i><span class="favorite-count">0</span></a>
+            <div class="favoriteList"><table>
+                <thead>
+                    <tr>
+                        <th>نام محصول</th>
+                        <th>تعداد</th>
+                        <th>قیمت واحد</th>
+                        <th>قیمت کل</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody class="table1">
+                </tbody>
+            </table><button onclick="location.href='favorite.html'">برو به علاقه مندی ها</button></div>
+        </div>
+
+        <div class="nav2">
+
+
+            <div class="dropdown">
+                <button class="dropbtn">فروشگاه
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>فروشگاه</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="products">
+                                <a href="#" class="dropdownA">
+                                    ادوات و نهاده های کشاورزی
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#adavat">ابزار باغبانی</a>
+                                    <a href="index.html#adavat">ادوات سمپاشی</a>
+                                    <a href="index.html#adavat">ادوات آبیاری</a>
+                                    <a href="index.html#adavat">قطعات و لوازم یدکی</a>
+                                    <a href="index.html#adavat">ادوات دست ساز</a>
+                                    <a href="index.html#adavat">پمپ آب و کفکش</a>
+                                    <a href="index.html#adavat">گلدان و آبپاش</a>
+                                    <a href="index.html#adavat">گرین وال و روف گاردن</a>
+
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">بذر
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#bazr">سبزی</a>
+                                    <a href="index.html#bazr">صیفی</a>
+                                    <a href="index.html#bazr">چمن</a>
+                                    <a href="index.html#bazr">گل</a>
+                                    <a href="index.html#bazr">گیاهان علوفه ای</a>
+                                    <a href="index.html#bazr">غلات
+                                    </a>
+                                    <a href="index.html#bazr">بذر خانگی</a>
+                                    <a href="index.html#bazr">بذر درخت</a>
+
+                                </div>
+                            </div>
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">کود
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#koud">ماکرو</a>
+                                    <a href="index.html#koud">ریز مغذی ها</a>
+                                    <a href="index.html#koud">محرک رشد</a>
+                                    <a href="index.html#koud">گوگردی</a>
+                                    <a href="index.html#koud">ارگانیک</a>
+                                    <a href="index.html#koud">آلی و حیوانی
+                                    </a>
+                                    <a href="index.html#koud">بیولوژیک و زیستی</a>
+                                    <a href="index.html#koud">مکمل ها</a>
+                                    <a href="index.html#koud">کود خانگی</a>
+                                    <a href="index.html#koud">چسب، محافظ</a>
+                                    <a href="index.html#koud">ضدعفونی ها</a>
+
+                                </div>
+                            </div>
+
+                           
+                        </div>
+                        <div class="column">
+                            <div class="products">
+                                <a href="#" class="dropdownA">خاک و بستر
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#khaak">پیت ماس</a>
+                                    <a href="index.html#khaak">کوکوپیت</a>
+                                    <a href="index.html#khaak">لیکاپون</a>
+                                    <a href="index.html#khaak">پرلیت</a>
+                                    <a href="index.html#khaak">جی فی</a>
+                                    <a href="index.html#khaak">خاک آماده</a>
+                                    <a href="index.html#khaak">ورمی کمپوست</a>
+                                    <a href="index.html#khaak">گرویک</a>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a href="#" class="dropdownA">گلخانه
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#golkhane">سینی نشا</a>
+                                    <a href="index.html#golkhane">شید و نایلون</a>
+                                    <a href="index.html#golkhane">لوازم هیدرویونیک</a>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a href="#" class="dropdownA">بیولوژیک
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="index.html#biologic">داروهای بیولوژیک</a>
+                                    <a href="index.html#biologic">تله و ابزار بیولوژیک</a>
+                                </div>
+                            </div>
+                             
+
+                        </div>
+                        <div class="column">
+                            <img src="images/1.jpg" alt="Store" class="store">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">نیازمندی ها و تبلیغات
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>نیازمندی ها و تبلیغات
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>لیست 1</h3>
+                            <a href="karyabi.html">آگهی های کاریابی</a>
+                            <a href="anbar.html">انبارداری و باربری</a>
+                        </div>
+                       
+                        <div class="column">
+                            <img src="images/3.png" alt="Requirements" class="Requirements">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">مدیریت مزرعه
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>مدیریت مزرعه
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <a href="weather.html">هواشناسی</a>
+                            <a href="calculate.html">حسابداری</a>
+                            <a href="disease.html">تشخیص بیماری های گیاهی</a>
+                        </div>
+                        <div class="column">
+                            <img src="images/5.png" alt="weather" style="width: 76%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">آموزش و اطلاع رسانی
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>آموزش و اطلاع رسانی</h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+
+                            <div class="products">
+                                <a href="#" class="dropdownA">محتوای آموزشی
+                                    <i class="fa fa-caret-left"></i>
+                                </a>
+                                <div class="dropdown-content2">
+                                    <a href="#amoozeshi">کتاب</a>
+                                    <a href="#">مقاله</a>
+                                    <a href="#">فیلم</a>
+                                </div>
+                            </div>
+                            <a href="news.html">اخبار کشاورزی</a>
+                            
+                        </div>
+                        <div class="column">
+                            <img src="images/6.png" alt="info" style="width: 90%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">کارشناسی و مشاوره
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <div class="header">
+                        <h2>کارشناسی و مشاوره
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <h3>لیست 1</h3>
+                            <a href="karshenas.html">ارتباط با کارشناسان ما</a>
+                            <a href="faq.html">سوالات متداول</a>
+                        </div>
+                        
+                        <div class="column">
+                            <img src="images/2.png" alt="consulting" class="consulting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+	<div class="admin"><i class="fa fa-bars">منوی ادمین</i></div>
+	<div class="container7">
+		<aside>
+			<ul>
+				<li class="btn dashboard-btn"><i class="fas fa-tachometer-alt"></i> داشبورد</li>
+				<li class="btn product-btn"><i class="fas fa-store-alt"></i> محصولات</li>
+				<li class="btn groups-btn"><i class="fas fa-tags"></i> دسته بندی ها</li>
+				<li class="btn orders-btn"><i class="fas fa-boxes"></i> سفارشات</li>
+				<li class="btn user-btn"><i class="fas fa-users"></i> کاربران</li>
+				<li class="btn setting-btn"><i class="fas fa-cog"></i> تنظیمات</li>
+			</ul>
+		</aside>
+	<main class="dashboard">
+		
+		<h1>داشبورد</h1>
+
+		<section>
+			<h2>موجودی محصولات</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>محصول</th>
+						<th>تعداد</th>
+						<th>افزایش تعداد</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>کود سولوپتاس</td>
+						<td>10</td>
+						<td><i class="fa fa-plus"></i>
+						<i class="fa fa-minus"></i></td>
+					</tr>
+					<tr>
+						<td>کود ان پی کی</td>
+						<td>5</td>
+						<td><i class="fa fa-plus"></i>
+						<i class="fa fa-minus"></i></td>
+					</tr>
+					<tr>
+						<td>بذر خيار پرگل گلخانه ای ویهان</td>
+						<td>8</td>
+						<td><i class="fa fa-plus"></i>
+						<i class="fa fa-minus"></i></td>
+					</tr>
+					<tr>
+						<td>شن کش باغبانی و سبزی کاری</td>
+						<td>3</td>
+						<td><i class="fa fa-plus"></i>
+						<i class="fa fa-minus"></i></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+
+	<main class="list-products">
+		<h2>لیست محصولات</h2>
+		<div class="add-btn">
+			<button onclick="window.location.href='addProduct.html'"><i class="fas fa-plus"></i> اضافه کردن محصول جدید</button>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>نام محصول</th>
+					<th>توضیحات</th>
+					<th>قیمت</th>
+					<th>تصویر</th>
+					<th colspan="2">عملیات</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>محصول ۱</td>
+					<td>توضیحات محصول ۱</td>
+					<td>۱۰۰۰۰ تومان</td>
+					<td><img src="https://via.placeholder.com/50" alt="تصویر محصول"></td>
+					<td>
+						<a href="#" class="edit-btn"><i class="fas fa-edit"></i> ویرایش</a>
+					</td>
+					<td>
+						<a href="#" class="delete-btn"><i class="fas fa-trash-alt"></i> حذف</a>
+					</td>
+				</tr>
+				<tr>
+					<td>محصول ۲</td>
+					<td>توضیحات محصول ۲</td>
+					<td>۲۰۰۰۰ تومان</td>
+					<td><img src="https://via.placeholder.com/50" alt="تصویر محصول"></td>
+					<td>
+						<a href="#" class="edit-btn"><i class="fas fa-edit"></i> ویرایش</a>
+					</td>
+					<td>
+						<a href="#" class="delete-btn"><i class="fas fa-trash-alt"></i> حذف</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+        <div class="form-container-edit">
+            <form id="add-product-form">
+                <h1>ویرایش محصول</h1>
+                <label for="product-name">نام محصول</label>
+                <input type="text" name="product-name" id="product-name">
+                <label for="product-details">توضیحات محصول</label>
+                <input type="text" name="product-details" id="product-details">
+                <label for="product-groups">دسته بندی محصول</label>
+                <input type="text" name="product-groups" id="product-groups">
+                <label for="product-price">قیمت:</label>
+                <input type="text" name="product-price" id="product-price">
+                <label for="product-image">عکس:</label>
+                <input type="file" name="product-image" id="product-image" >
+                <button type="submit">ویرایش محصول</button>
+            </form>
+        </div>
+		<div class="form-container">
+			<h2>ویرایش محصول</h2>
+			<form>
+				<label for="name">نام محصول</label>
+				<input type="text" id="name" name="name">
+				<label for="description">توضیحات</label>
+				<textarea id="description" name="description"></textarea>
+				<label for="price">قیمت</label>
+				<input type="number" id="price" name="price">
+				<label for="image">تصویر</label>
+				<input type="file" id="image" name="image">
+				<button type="submit">اضافه کردن</button>
+			</form>
+		</div>
+	</main>
+
+	<main class="groups">
+		<section>
+			<h2>دسته بندی محصولات</h2>
+			<form>
+				<label for="category">انتخاب دسته بندی:</label>
+				<select id="category">
+					<option value="1">کود</option>
+					<option value="2">بذر</option>
+					<option value="3">ادوات</option>
+				</select>
+			</form>
+		</section>
+		<section>
+			<h2>لیست محصولات</h2>
+			<ul id="product-list">
+				<li>کود سولوپتاس</li>
+				<li>کود ان پی کی </li>
+				<li>بذر خيار پرگل گلخانه ای ویهان</li>
+				<li>بذر خربزه ملون آناناسی کاریزما</li>
+				<li>شن کش باغبانی و سبزی کاری</li>
+				<li>دستگاه بست زن و قیم زن</li>
+			</ul>
+		</section>
+	</main>
+
+	<main class="orders">
+		<table>
+			<thead>
+				<tr>
+					<th>شماره سفارش</th>
+					<th>مشتری</th>
+					<th>تاریخ</th>
+					<th>مبلغ کل (تومان)</th>
+					<th>وضعیت</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>۱۲۳۴۵۶۷۸۹۰</td>
+					<td>علی رضایی</td>
+					<td>۱۴۰۰/۰۲/۱۲</td>
+					<td>۲۵۰۰۰۰</td>
+					<td>در حال پردازش</td>
+				</tr>
+				<tr>
+					<td>۲۳۴۵۶۷۸۹۰۱</td>
+					<td>مریم حسینی</td>
+					<td>۱۴۰۰/۰۲/۱۰</td>
+					<td>۵۰۰۰۰۰</td>
+					<td>ارسال شده</td>
+				</tr>
+				<tr>
+					<td>۳۴۵۶۷۸۹۰۱۲</td>
+					<td>حسن احمدی</td>
+					<td>۱۴۰۰/۰۲/۰۹</td>
+					<td>۱۰۰۰۰۰۰</td>
+					<td>تحویل داده شده</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
+
+	<main class="settings">
+		<section class="info">
+			<h2>اطلاعات فروشگاه</h2>
+			<form>
+				<label for="name">نام فروشگاه</label>
+				<input type="text" id="name" name="name" placeholder="فروشگاه کشاورزی">
+				<label for="email">ایمیل</label>
+				<input type="email" id="email" name="email" placeholder="info@example.com">
+				<label for="phone">تلفن</label>
+				<input type="tel" id="phone" name="phone" placeholder="0211111111">
+				<button type="submit">ذخیره تغییرات</button>
+			</form>
+		</section>
+		<section class="payment">
+		
+		</section>
+	</main>
+	
+
+	<main class="user-details">
+		<ul>
+			<li>
+				<div class="user">
+					<img src="https://via.placeholder.com/50" alt="تصویر کاربر">
+					<div class="info">
+						<h2>علی رضایی</h2>
+						<p>ایمیل: ali@example.com</p>
+						<p>تلفن: ۰۹۱۲۳۴۵۶۷۸۹۰</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="user">
+					<img src="https://via.placeholder.com/50" alt="تصویر کاربر">
+					<div class="info">
+						<h2>مریم حسینی</h2>
+						<p>ایمیل: maryam@example.com</p>
+						<p>تلفن: ۰۹۱۲۳۴۵۶۷۸۹۱</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="user">
+					<img src="https://via.placeholder.com/50" alt="تصویر کاربر">
+					<div class="info">
+						<h2>حسن احمدی</h2>
+						<p>ایمیل: hasan@example.com</p>
+						<p>تلفن: ۰۹۱۲۳۴۵۶۷۸۹۲</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</main>
+
+	</div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_col">
+                <h3>درباره ما</h3>
+                <p>
+                    سایت کشاورزی آماده ارائه ی خدمات به فعالان بخش
+                    کشاورزی میباشد. به طوری که تمامی نیازهای کشاورز را تامین میکند.
+                </p>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>دسترسی سریع</h3>
+                <ul>
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="consulting.html">تماس با ما</a></li>
+                    <li><a href="signup.html">ورود به حساب کاربری</a></li>
+                    <li><a href="register.html">ثبت نام در سایت</a></li>
+                    <li><a href="index.html">محصولات</a></li>
+                </ul>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>محصولات</h3>
+                <ul>
+                    <li><a href="index.html#adavat">ادوات و نهاده های کشاورزی</a></li>
+                    <li><a href="index.html#golkhane">لوازم و تجهیزات گلخانه</a></li>
+                    <li><a href="index.html#amoozeshi">محتوای آموزشی</a></li>
+                </ul>
+            </div>
+            <div class="footer_col footer_menu">
+                <h3>لینک شبکه های اجتماعی</h3>
+                <ul>
+                    <li><a href="#">اینستاگرام</a></li>
+                    <li><a href="#">تلگرام</a></li>
+                    <li><a href="#">آپارات</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </footer>
+	<script src="script2.js"></script>
+	<script src="j29.js"></script>
+</body>
+</html>

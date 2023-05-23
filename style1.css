@@ -1,0 +1,116 @@
+/* محیط کلی صفحه وب */
+body {
+  direction: rtl;
+    font-family: "Tahoma", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* سربرگ */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* منوی ناوبری */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav li:first-child {
+    margin-left: 0;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #f00;
+  }
+  
+  /* محتوا */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* فوتر */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* ریسپانسیو */
+  @media only screen and (max-width: 600px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    nav {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  
+    section p {
+      font-size: 16px;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+  }

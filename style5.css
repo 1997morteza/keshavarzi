@@ -1,0 +1,83 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f1f1f1;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #008080;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #008080;
+}
+
+main {
+	margin: 20px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#jobs {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+article {
+	background-color: #fff;
+	color: #333;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	flex-basis: 30%;
+}
+
+article h2 {
+	font-size: 1.2em;
+	margin: 0 0 10px;
+}
+
+article p {
+	margin: 0 0 5px;
+}
+
+article a {
+	display: inline-block;
+	background-color: #008080;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+article a:hover {
+	background-color: #005353;
+}
