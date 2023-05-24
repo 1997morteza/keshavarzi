@@ -286,24 +286,43 @@
                 <input type="checkbox" id="checkToggle" aria-hidden="true">
                 <form class="form">
                     <label for="checkToggle" id="signupLabel">ثبت نام</label>
-                    <input type="text" class="email" name="email" placeholder="ایمیل">
+                    <input type="text" class="email" name="email" placeholder="ایمیل را وارد کنید">
                     <span class="errorField errorEmail"></span>
-                    <input type="text" class="user_name" name="user_name" placeholder="نام کاربری">
+                    <input type="text" class="user_name" name="user_name" placeholder="نام کاربری را وارد کنید">
                     <span class="errorField errorUsername"></span>
-                    <input type="password" class="password" name="password" placeholder="رمز عبور">
+                    <input type="password" class="password" name="password" placeholder="رمز عبور را وارد کنید">
                     <span class="errorField errorPassword"></span>
                     <button type="submit" class="submit">ثبت نام</button>
                 </form>
             </div>
             <div class="signin">
-                <form class="form">
+                <form style="position: relative;" class="form">
                     <label for="checkToggle" id="signinLabel">ورود</label>
-                    <input type="text" class="user_name1" name="user_name" placeholder="نام کاربری">
+                    <input type="text" class="user_name1" name="user_name" placeholder="نام کاربری را وارد کنید">
                     <span class="errorField1 errorUsername1"></span>
-                    <input type="password" class="password1" name="password" placeholder="رمز عبور">
+                    <input type="password" class="password1" name="password" placeholder="رمز عبور را وارد کنید">
                     <span class="errorField1 errorPassword1"></span>
-                    <a href="account.html"><button type="submit" class="submit">ورود</button></a>
-                    <a class="dashboard-link" href="dashboard.html"></a>
+                    <div class="submitbox" style="display: flex;">
+                        <div style="cursor: pointer; display: flex; position: absolute; right: 0;" class="mem1">
+                        <input style="cursor: pointer;" type="checkbox" name="mem" id="mem">
+                            <label for="mem" style="user-select: none; margin: 0; border-bottom: none; font-size: 12px;">به خاطر سپردن اطلاعات ورود</label>
+                        </div>
+                    <button type="submit" class="submit">ورود</button>
+                </div>
+                </form>
+            </div>
+            <input type="checkbox" id="checkToggle1" aria-hidden="true">
+            <div class="signin forget-password">
+                <form style="position: relative;" class="form">
+                    <label for="checkToggle1" id="forgetLabel">فراموشی رمز عبور</label>
+                    <input type="text" class="email1" name="email" placeholder="ایمیل را وارد کنید">
+                    <span class="errorField2 errorEmail1"></span>
+                    <div class="submitbox" style="display: flex;">
+                        <div style="cursor: pointer; display: flex; position: absolute; right: 0;" class="mem1">
+                        </div>
+                    <button type="submit" class="submit submit1">بازنشانی رمز</button>
+                    <div class="AlertMessage1"></div>
+                </div>
                 </form>
             </div>
         </div>
