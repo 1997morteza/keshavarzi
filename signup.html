@@ -284,7 +284,7 @@
         <div class="main-form">
             <div class="signup">
                 <input type="checkbox" id="checkToggle" aria-hidden="true">
-                <form class="form">
+                <form style="position: relative;" class="form">
                     <label for="checkToggle" id="signupLabel">ثبت نام</label>
                     <input type="text" class="email" name="email" placeholder="ایمیل را وارد کنید">
                     <span class="errorField errorEmail"></span>
@@ -292,7 +292,13 @@
                     <span class="errorField errorUsername"></span>
                     <input type="password" class="password" name="password" placeholder="رمز عبور را وارد کنید">
                     <span class="errorField errorPassword"></span>
+                    <div class="submitbox" style="display: flex;">
+                     <div style="cursor: pointer; display: flex; position: absolute; right: 0;" class="mem1">
+                        <input style="cursor: pointer;" type="checkbox" name="mem" id="mem">
+                            <label for="mem" style="user-select: none; margin: 0; border-bottom: none; font-size: 12px;">اخبار کشاورزی به من ایمیل شود</label>
+                        </div>
                     <button type="submit" class="submit">ثبت نام</button>
+                        </div> 
                 </form>
             </div>
             <div class="signin">
