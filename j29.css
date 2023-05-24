@@ -1347,6 +1347,9 @@ button {
 #checkToggle {
   display: none;
 }
+#checkToggle1{
+  display: none;
+}
 .signup form button:hover,
 .signin form button:hover {
   background-color: rgb(33, 133, 58);
