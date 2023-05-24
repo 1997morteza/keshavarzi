@@ -1418,6 +1418,14 @@ button {
   transform: translateY(-400px);
 }
 
+.toggle2{
+  transform: translateY(-570px);
+}
+
+.toggle1 {
+  transform: translateY(-790px);
+}
+
 .errorField {
   display: block;
   color: red;
