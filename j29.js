@@ -8,17 +8,17 @@ document.addEventListener('click', function(event) {
   }
 });
 
-document.addEventListener('click', function(event) {
-  if (event.target.matches('.dropbtn')) {
-     event.target.children[1].classList.toggle('active'); 
-  }
-});
+//document.addEventListener('click', function(event) {
+  //if (event.target.matches('.dropbtn')) {
+    // event.target.children[1].classList.toggle('active'); 
+  //}
+//});
 
-document.addEventListener('click', function(event) {
-  if (event.target.matches('.dropdownA')) { 
-     event.target.nextElementSibling.classList.toggle('active'); 
-  }
-});
+//document.addEventListener('click', function(event) {
+//  if (event.target.matches('.dropdownA')) { 
+  //   event.target.nextElementSibling.classList.toggle('active'); 
+//  }
+//});
 let slideIndex = 0;
 if(slideNumber){
 showSlides();
