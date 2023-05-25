@@ -9,7 +9,7 @@ document.addEventListener('click', function(event) {
 });
 
 document.addEventListener('click', function(event) {
-  if (event.target.matches('.dropdown')) {
+  if (event.target.matches('.dropbtn')) {
      event.target.children[1].classList.toggle('active'); 
   }
 });
