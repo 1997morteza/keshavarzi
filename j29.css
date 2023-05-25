@@ -2129,6 +2129,7 @@ button {
     
   }
   .desktop-nav.active{
+	  position:sticky;
     display: block;
     transition: 0.4s ease-in-out;
     opacity: 1;
