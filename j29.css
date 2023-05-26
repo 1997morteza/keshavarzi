@@ -1524,7 +1524,6 @@ button {
 	direction: rtl;
 	margin: 0;
 	padding: 0;
-	background-color: rgb(246 246 246);
   
   }
   .containerCalculate form{
@@ -1532,7 +1531,6 @@ button {
 	justify-content: center;
 	text-align: center;
 	width: 80vw;
-	margin: auto;
   }
   .containerCalculate .calculator{
 	display: flex;
