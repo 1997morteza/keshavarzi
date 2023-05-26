@@ -2,11 +2,6 @@ const menu = document.querySelector(".desktop-nav");
 
 const slideNumber = document.querySelector(".slideNumber");
 
-document.addEventListener('click', function(event) {
-  if (event.target.matches('.menu-icon')) { 
-     menu.classList.toggle('active'); 
-  }
-});
 
 //document.addEventListener('click', function(event) {
   //if (event.target.matches('.dropbtn')) {
