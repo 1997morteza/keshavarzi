@@ -9,9 +9,9 @@ removeBtns.forEach(btn => {
 });
 
 		const clearBtn = document.getElementById('clear-wishlist-btn');
-		const table2 = document.getElementById('wishlist-table');
+		const table3 = document.getElementById('wishlist-table');
 		clearBtn.addEventListener('click', () => {
-			table2.querySelector('tbody').innerHTML = '<tr><td colspan="4">لیست خرید شما خالی است.</td></tr>';
+			table3.querySelector('tbody').innerHTML = '<tr><td colspan="4">لیست خرید شما خالی است.</td></tr>';
 		});
 
         
