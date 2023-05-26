@@ -1906,6 +1906,8 @@ button {
 	margin-bottom: 1rem;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+	      background: unset;
+    color: unset;
   }
   
   .profile .edit-profile button, .change-password button {
@@ -1930,13 +1932,15 @@ button {
 	border-collapse: collapse;
 	margin: 0 auto;
 	width: 100%;
+	  border:1px solid;
   }
   
   .profile thead {
-	background-color: #ddd;
+	  border-botom:1px solid;
   }
   
   .profile th, td {
+	  border: 1px solid;
 	padding: 0.5rem;
 	text-align: center;
   }
@@ -1945,9 +1949,6 @@ button {
 	font-weight: bold;
   }
   
-  .profile tr:nth-child(even) {
-	background-color: #f2f2f2;
-  }
   
   .profile  tr:hover {
 	background-color: #ddd;
