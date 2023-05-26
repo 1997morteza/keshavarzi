@@ -251,7 +251,7 @@ header {
 	align-items: center;
 }
 .container7 main {
-	padding: 20px;
+	padding: 5px;
 }
 
 .container7 .info, .payment {
@@ -308,7 +308,7 @@ header {
 
 .container7 table th,
 .container7 table td {
-	padding: 12px 1vw;
+	padding: 12px 0;
 	text-align: center;
 	border: 1px solid #ccc;
 }
