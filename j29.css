@@ -2268,9 +2268,12 @@ button {
 }
 
 	
-	qty-btn,
-	remove-btn{
+	.qty-btn,
+	.remove-btn{
 		font-size: 1.0em;
+	}
+	.containerCart{
+		width:unset;
 	}
 	
   /* *********************************end responsiv************************** */
