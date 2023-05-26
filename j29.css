@@ -1651,8 +1651,7 @@ button {
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
   }
   .containerCart table th,.containerCart table td {
-    text-align: left;
-    padding: 8px;
+    padding: 4px;
     border-bottom: 1px solid #ddd;
   }
   .containerCart table tr:hover {
@@ -2268,5 +2267,11 @@ button {
     right: 0;
 }
 
+	
+	qty-btn,
+	remove-btn{
+		font-size: 1.0em;
+	}
+	
   /* *********************************end responsiv************************** */
 }
