@@ -1,6 +1,6 @@
 
-const removeBtns = document.querySelectorAll('.remove-btn');
-removeBtns.forEach(btn => {
+const removeBtns2 = document.querySelectorAll('.remove-btn');
+removeBtns2.forEach(btn => {
     btn.addEventListener('click', (event) => {
         event.preventDefault();
         const tr = event.target.closest('tr');
