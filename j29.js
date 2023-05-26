@@ -19,6 +19,30 @@ document.addEventListener('click', function(event) {
   //   event.target.nextElementSibling.classList.toggle('active'); 
 //  }
 //});
+
+
+document.addEventListener('click', function(event) {
+  if (event.target.matches('.menu-icon')) { 
+     menu.classList.toggle('active'); 
+  }
+  else if (event.target.matches('.dropdown')) {
+    if(document.querySelector('.dropdown-content').style.display == 'block'){ 
+    document.querySelector('.dropdown-content').style.display = 'none'; 
+    }else{
+      document.querySelector('.dropdown-content').style.display = 'block';
+    }
+ }
+ else if (event.target.matches('.dropdownA')) {
+  if(document.querySelector('.dropdown-content2').style.display == 'block'){ 
+  document.querySelector('.dropdown-content2').style.display = 'none'; 
+  }else{
+    document.querySelector('.dropdown-content2').style.display = 'block';
+  }
+}
+});
+
+
+
 let slideIndex = 0;
 if(slideNumber){
 showSlides();
